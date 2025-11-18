@@ -1,0 +1,435 @@
+[
+  {
+    "id": 1,
+    "name": "Kwame Asante",
+    "category": "Musicians",
+    "subCategory": "Keyboardist",
+    "priceTier": "Standard",
+    "exactPrice": 1500,
+    "rating": 4.8,
+    "reviewCount": 24,
+    "yearsExperience": 8,
+    "location": "East Legon",
+    "areasServed": ["East Legon", "Osu", "Airport Residential"],
+    "bio": "Professional keyboardist with 8 years of experience performing at weddings, corporate events, and private celebrations. Specializes in contemporary and traditional Ghanaian music.",
+    "profilePhoto": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    "videoUrls": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "https://www.youtube.com/embed/jNQXAC9IVRw"
+    ],
+    "skills": ["Contemporary Music", "Traditional Ghanaian", "Jazz", "Gospel"],
+    "reviews": [
+      {
+        "customerName": "Ama Mensah",
+        "rating": 5,
+        "date": "2024-10-15",
+        "review": "Kwame made our wedding absolutely magical! His performance was flawless and he kept our guests entertained throughout the evening.",
+        "eventType": "Wedding"
+      },
+      {
+        "customerName": "Kofi Adjei",
+        "rating": 4.5,
+        "date": "2024-09-20",
+        "review": "Professional and talented. Highly recommend for any event.",
+        "eventType": "Corporate"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Adjoa Boateng",
+    "category": "Musicians",
+    "subCategory": "Violinist",
+    "priceTier": "Premium",
+    "exactPrice": 7500,
+    "rating": 5.0,
+    "reviewCount": 18,
+    "yearsExperience": 12,
+    "location": "Osu",
+    "areasServed": ["Osu", "Cantonments", "Labone", "Airport Residential"],
+    "bio": "Classically trained violinist with over a decade of experience. Known for elegant performances at high-end events and celebrations.",
+    "profilePhoto": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    "videoUrls": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "https://www.youtube.com/embed/jNQXAC9IVRw"
+    ],
+    "skills": ["Classical", "Contemporary", "Wedding Music", "Solo Performance"],
+    "reviews": [
+      {
+        "customerName": "Efua Owusu",
+        "rating": 5,
+        "date": "2024-11-01",
+        "review": "Absolutely stunning performance! Adjoa's music brought tears to everyone's eyes. Worth every cedi.",
+        "eventType": "Wedding"
+      },
+      {
+        "customerName": "Yaw Bonsu",
+        "rating": 5,
+        "date": "2024-10-10",
+        "review": "The best violinist in Accra. Professional, punctual, and incredibly talented.",
+        "eventType": "Anniversary"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "DJ Kweku",
+    "category": "Musicians",
+    "subCategory": "DJ",
+    "priceTier": "Standard",
+    "exactPrice": 1800,
+    "rating": 4.6,
+    "reviewCount": 32,
+    "yearsExperience": 6,
+    "location": "Madina",
+    "areasServed": ["Madina", "East Legon", "Tema", "Osu"],
+    "bio": "High-energy DJ specializing in Afrobeat, Hip-hop, and contemporary hits. Perfect for parties, birthdays, and celebrations.",
+    "profilePhoto": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    "videoUrls": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "https://www.youtube.com/embed/jNQXAC9IVRw"
+    ],
+    "skills": ["Afrobeat", "Hip-hop", "Dance Music", "Party Mixes"],
+    "reviews": [
+      {
+        "customerName": "Nana Yeboah",
+        "rating": 4.5,
+        "date": "2024-10-25",
+        "review": "DJ Kweku kept the party going all night! Great music selection and energy.",
+        "eventType": "Birthday"
+      },
+      {
+        "customerName": "Akosua Darko",
+        "rating": 4.7,
+        "date": "2024-09-15",
+        "review": "Amazing DJ! Everyone was dancing. Highly recommend!",
+        "eventType": "Birthday"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "The Highlife Band",
+    "category": "Musicians",
+    "subCategory": "Live Band",
+    "priceTier": "Premium",
+    "exactPrice": 8500,
+    "rating": 4.9,
+    "reviewCount": 15,
+    "yearsExperience": 10,
+    "location": "Tema",
+    "areasServed": ["Tema", "East Legon", "Osu", "Cantonments"],
+    "bio": "A full live band specializing in Highlife, Afrobeat, and contemporary Ghanaian music. Perfect for large celebrations and corporate events.",
+    "profilePhoto": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    "videoUrls": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "https://www.youtube.com/embed/jNQXAC9IVRw"
+    ],
+    "skills": ["Highlife", "Afrobeat", "Live Performance", "Band Music"],
+    "reviews": [
+      {
+        "customerName": "Kojo Appiah",
+        "rating": 5,
+        "date": "2024-10-30",
+        "review": "Incredible band! They made our corporate event unforgettable. Professional and talented.",
+        "eventType": "Corporate"
+      },
+      {
+        "customerName": "Mariama Sule",
+        "rating": 4.8,
+        "date": "2024-09-28",
+        "review": "Best live band we've ever hired. Everyone loved them!",
+        "eventType": "Wedding"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Afia Dance Crew",
+    "category": "Dancers",
+    "subCategory": "Afrobeat",
+    "priceTier": "Standard",
+    "exactPrice": 2000,
+    "rating": 4.7,
+    "reviewCount": 28,
+    "yearsExperience": 5,
+    "location": "East Legon",
+    "areasServed": ["East Legon", "Osu", "Madina", "Tema"],
+    "bio": "Energetic dance crew specializing in Afrobeat and contemporary African dance styles. Perfect for adding excitement to any celebration.",
+    "profilePhoto": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    "videoUrls": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "https://www.youtube.com/embed/jNQXAC9IVRw"
+    ],
+    "skills": ["Afrobeat", "Contemporary", "Group Performance", "Choreography"],
+    "reviews": [
+      {
+        "customerName": "Serwaa Amponsah",
+        "rating": 4.8,
+        "date": "2024-10-20",
+        "review": "Amazing dancers! They brought so much energy to our event. Highly recommended!",
+        "eventType": "Birthday"
+      },
+      {
+        "customerName": "Kwabena Osei",
+        "rating": 4.5,
+        "date": "2024-09-10",
+        "review": "Great performance! The crowd loved them.",
+        "eventType": "Corporate"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Kpanlogo Masters",
+    "category": "Dancers",
+    "subCategory": "Traditional Ghanaian",
+    "priceTier": "Standard",
+    "exactPrice": 1600,
+    "rating": 4.5,
+    "reviewCount": 20,
+    "yearsExperience": 7,
+    "location": "Osu",
+    "areasServed": ["Osu", "Cantonments", "Labone", "East Legon"],
+    "bio": "Traditional Ghanaian dance troupe specializing in Kpanlogo, Adowa, and other cultural dances. Perfect for cultural celebrations and traditional events.",
+    "profilePhoto": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    "videoUrls": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "https://www.youtube.com/embed/jNQXAC9IVRw"
+    ],
+    "skills": ["Kpanlogo", "Adowa", "Traditional", "Cultural Dance"],
+    "reviews": [
+      {
+        "customerName": "Ama Serwaa",
+        "rating": 4.6,
+        "date": "2024-10-12",
+        "review": "Beautiful traditional performance! They honored our culture perfectly.",
+        "eventType": "Wedding"
+      },
+      {
+        "customerName": "Kofi Mensah",
+        "rating": 4.4,
+        "date": "2024-09-05",
+        "review": "Authentic and professional. Great for traditional events.",
+        "eventType": "Anniversary"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Hip-Hop Moves",
+    "category": "Dancers",
+    "subCategory": "Hip-hop",
+    "priceTier": "Basic",
+    "exactPrice": 800,
+    "rating": 4.3,
+    "reviewCount": 15,
+    "yearsExperience": 3,
+    "location": "Madina",
+    "areasServed": ["Madina", "East Legon", "Tema"],
+    "bio": "Young, energetic hip-hop dance crew bringing modern urban dance styles to your events. Perfect for birthdays and youth celebrations.",
+    "profilePhoto": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    "videoUrls": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "https://www.youtube.com/embed/jNQXAC9IVRw"
+    ],
+    "skills": ["Hip-hop", "Urban Dance", "Breakdancing", "Youth Events"],
+    "reviews": [
+      {
+        "customerName": "Nana Kwame",
+        "rating": 4.2,
+        "date": "2024-10-08",
+        "review": "Great for my son's birthday party! The kids loved them.",
+        "eventType": "Birthday"
+      },
+      {
+        "customerName": "Esi Asante",
+        "rating": 4.4,
+        "date": "2024-09-20",
+        "review": "Energetic and fun! Perfect for young audiences.",
+        "eventType": "Birthday"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Grace Contemporary",
+    "category": "Dancers",
+    "subCategory": "Contemporary",
+    "priceTier": "Premium",
+    "exactPrice": 6000,
+    "rating": 4.9,
+    "reviewCount": 12,
+    "yearsExperience": 9,
+    "location": "Cantonments",
+    "areasServed": ["Cantonments", "Labone", "Airport Residential", "Osu"],
+    "bio": "Elegant contemporary dance soloist and choreographer. Specializes in sophisticated performances for high-end events and corporate functions.",
+    "profilePhoto": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    "videoUrls": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "https://www.youtube.com/embed/jNQXAC9IVRw"
+    ],
+    "skills": ["Contemporary", "Modern Dance", "Choreography", "Solo Performance"],
+    "reviews": [
+      {
+        "customerName": "Abena Ofori",
+        "rating": 5,
+        "date": "2024-11-05",
+        "review": "Graceful and mesmerizing performance. Absolutely stunning!",
+        "eventType": "Corporate"
+      },
+      {
+        "customerName": "Kwaku Boateng",
+        "rating": 4.8,
+        "date": "2024-10-18",
+        "review": "Professional and elegant. Perfect for our corporate event.",
+        "eventType": "Corporate"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Kofi Laughs",
+    "category": "Comedians",
+    "subCategory": "Stand-up Comedian",
+    "priceTier": "Standard",
+    "exactPrice": 2200,
+    "rating": 4.6,
+    "reviewCount": 30,
+    "yearsExperience": 6,
+    "location": "Osu",
+    "areasServed": ["Osu", "East Legon", "Cantonments", "Madina"],
+    "bio": "Award-winning stand-up comedian known for clean, family-friendly humor. Perfect for birthdays, corporate events, and celebrations.",
+    "profilePhoto": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    "videoUrls": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "https://www.youtube.com/embed/jNQXAC9IVRw"
+    ],
+    "skills": ["Stand-up Comedy", "Family-Friendly", "Corporate Events", "Clean Humor"],
+    "reviews": [
+      {
+        "customerName": "Yaa Asantewaa",
+        "rating": 4.7,
+        "date": "2024-10-22",
+        "review": "Hilarious! Kofi had everyone laughing all night. Great entertainer!",
+        "eventType": "Birthday"
+      },
+      {
+        "customerName": "Osei Bonsu",
+        "rating": 4.5,
+        "date": "2024-09-18",
+        "review": "Perfect for our corporate event. Professional and funny!",
+        "eventType": "Corporate"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "MC Bright",
+    "category": "Comedians",
+    "subCategory": "MC/Event Host",
+    "priceTier": "Standard",
+    "exactPrice": 1800,
+    "rating": 4.8,
+    "reviewCount": 25,
+    "yearsExperience": 7,
+    "location": "East Legon",
+    "areasServed": ["East Legon", "Osu", "Cantonments", "Tema"],
+    "bio": "Professional MC and event host with years of experience. Keeps events flowing smoothly with humor and professionalism.",
+    "profilePhoto": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    "videoUrls": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "https://www.youtube.com/embed/jNQXAC9IVRw"
+    ],
+    "skills": ["MC", "Event Hosting", "Public Speaking", "Wedding MC"],
+    "reviews": [
+      {
+        "customerName": "Ama Darko",
+        "rating": 5,
+        "date": "2024-10-28",
+        "review": "Best MC we've ever had! Made our wedding perfect.",
+        "eventType": "Wedding"
+      },
+      {
+        "customerName": "Kwame Asare",
+        "rating": 4.7,
+        "date": "2024-09-25",
+        "review": "Professional and engaging. Highly recommend!",
+        "eventType": "Corporate"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Comedy Skits Ghana",
+    "category": "Comedians",
+    "subCategory": "Comedy Skits",
+    "priceTier": "Basic",
+    "exactPrice": 1200,
+    "rating": 4.4,
+    "reviewCount": 18,
+    "yearsExperience": 4,
+    "location": "Madina",
+    "areasServed": ["Madina", "East Legon", "Osu"],
+    "bio": "Comedy skit group bringing hilarious Ghanaian-themed performances to your events. Perfect for birthdays and celebrations.",
+    "profilePhoto": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    "videoUrls": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "https://www.youtube.com/embed/jNQXAC9IVRw"
+    ],
+    "skills": ["Comedy Skits", "Ghanaian Humor", "Group Performance", "Interactive"],
+    "reviews": [
+      {
+        "customerName": "Efua Mensah",
+        "rating": 4.3,
+        "date": "2024-10-15",
+        "review": "Funny and entertaining! Great for parties.",
+        "eventType": "Birthday"
+      },
+      {
+        "customerName": "Kofi Adjei",
+        "rating": 4.5,
+        "date": "2024-09-12",
+        "review": "Hilarious skits! Everyone enjoyed the performance.",
+        "eventType": "Birthday"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Funny Bones",
+    "category": "Comedians",
+    "subCategory": "Improv/Interactive",
+    "priceTier": "Standard",
+    "exactPrice": 1900,
+    "rating": 4.7,
+    "reviewCount": 22,
+    "yearsExperience": 5,
+    "location": "Cantonments",
+    "areasServed": ["Cantonments", "Labone", "Osu", "East Legon"],
+    "bio": "Interactive improv comedy group that engages audiences with spontaneous humor and audience participation. Perfect for corporate events and celebrations.",
+    "profilePhoto": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
+    "videoUrls": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "https://www.youtube.com/embed/jNQXAC9IVRw"
+    ],
+    "skills": ["Improv", "Interactive Comedy", "Audience Participation", "Corporate Events"],
+    "reviews": [
+      {
+        "customerName": "Serwaa Osei",
+        "rating": 4.8,
+        "date": "2024-10-30",
+        "review": "So much fun! They got everyone involved and laughing.",
+        "eventType": "Corporate"
+      },
+      {
+        "customerName": "Yaw Appiah",
+        "rating": 4.6,
+        "date": "2024-09-22",
+        "review": "Unique and entertaining! Great for keeping audiences engaged.",
+        "eventType": "Birthday"
+      }
+    ]
+  }
+]
+
