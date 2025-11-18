@@ -37,7 +37,7 @@ VITE_API_URL=http://localhost:8000/api
 
 ### Production (Railway):
 ```env
-VITE_API_URL=https://giggh-backend-production.up.railway.app/api
+VITE_API_URL=https://giggh-api-production.up.railway.app/api
 ```
 
 ---
