@@ -26,7 +26,6 @@ The npm warning about `production` config is harmless. It's just suggesting to u
 2. Click **Variables** tab
 3. Add new variable:
    - **Name**: `VITE_API_URL`
-   - **Name**: `VITE_API_URL`
    - **Value**: `https://giggh-api-production.up.railway.app/api`
 4. Click **Add**
 5. **Important**: Railway will automatically rebuild the frontend after you add the variable
