@@ -3,7 +3,11 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react],
+  plugins: [
+    react({
+      jsxRuntime: 'automatic',
+    }),
+  ],
   server: {
     host: '0.0.0.0',
     port: parseInt(process.env.PORT || '5173'),
