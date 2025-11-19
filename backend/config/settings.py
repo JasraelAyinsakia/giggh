@@ -135,8 +135,35 @@ SIMPLE_JWT = {
 # CORS Settings
 cors_origins = os.environ.get('CORS_ALLOWED_ORIGINS', '')
 if cors_origins:
-    # Split by comma and strip whitespace and trailing slashes
-    CORS_ALLOWED_ORIGINS = [origin.strip().rstrip('/') for origin in cors_origins.split(',') if origin.strip()]
+    # Split by comma, clean each origin
+    cleaned_origins = []
+    for origin in cors_origins.split(','):
+        origin = origin.strip()
+        if origin:
+            # Fix common typos (htpps -> https)
+            origin = origin.replace('htpps://', 'https://')
+            origin = origin.replace('htpp://', 'http://')
+            # Remove trailing slashes
+            origin = origin.rstrip('/')
+            # Remove any path (keep only protocol + domain + port)
+            # Extract just the origin (protocol://domain:port)
+            if '://' in origin:
+                parts = origin.split('://', 1)
+                protocol = parts[0]
+                rest = parts[1]
+                # Remove path (everything after first /)
+                if '/' in rest:
+                    rest = rest.split('/')[0]
+                origin = f"{protocol}://{rest}"
+            # Only add valid origins
+            if origin.startswith(('http://', 'https://')):
+                cleaned_origins.append(origin)
+    CORS_ALLOWED_ORIGINS = cleaned_origins if cleaned_origins else [
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "http://127.0.0.1:5173",
+        "http://127.0.0.1:3000",
+    ]
 else:
     CORS_ALLOWED_ORIGINS = [
         "http://localhost:5173",
